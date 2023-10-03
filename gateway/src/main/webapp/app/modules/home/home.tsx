@@ -26,6 +26,9 @@ export const Home = () => {
       <Col md="9">
         <h2>
           <Translate contentKey="home.title">Welcome, Java Hipster!</Translate>
+          <h3 className="text-primary">
+            Hi, I'm a JHipster!
+          </h3>
         </h2>
         <p className="lead">
           <Translate contentKey="home.subtitle">This is your homepage</Translate>
